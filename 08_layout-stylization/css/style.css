@@ -241,9 +241,13 @@ body {
 }
 
 .specials-content-big {
+    width: 570px;
     padding-top: 211px;
-    min-height: 540px;
-    background: center center url('../img/hotel-rooms-lux.jpg');
+    background: center center url(../img/hotel-rooms-lux.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
 }
 
 
