@@ -536,6 +536,14 @@ body {
     margin-right: 23px;
 }
 
+.placement-item:last-child {
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 27px;
+    background: center center url('../img/show-all.jpg') no-repeat;
+}
+
 .placement-item-preview {
     display: flex;
     flex-direction: column;
@@ -571,14 +579,6 @@ body {
 
 .placement-btn {
     align-self: flex-start;
-}
-
-.placement-show-all {
-    position: relative;
-    justify-content: flex-end;
-    align-items: center;
-    padding-bottom: 27px;
-    background: center center url('../img/show-all.jpg') no-repeat;
 }
 
 .placement-show-all-link {
