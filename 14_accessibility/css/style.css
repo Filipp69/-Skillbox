@@ -84,6 +84,11 @@ body {
     list-style: none;
 }
 
+.btn-reset {
+    background: transparent;
+    border: none;
+}
+
 .container {
     max-width: 1770px;
     width: 94%;
@@ -171,6 +176,12 @@ body {
 
 .search-field {
     position: relative;
+    background: transparent;
+    border: none;
+}
+
+.search-field:focus {
+    outline: 2px solid #FF9900;
 }
 
 .nav__search-btn {
@@ -207,7 +218,7 @@ path {
     padding: 18px 13px 18px 32px;
     position: absolute;
     width: 539px;
-    right: -57px;
+    right: -35px;
     top: -22px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgb(0 0 0 / 12%);
@@ -710,6 +721,7 @@ path {
 .accordion__item:hover {
     border-top: 1px solid #FF9900;
     border-bottom: 1px solid #FF9900;
+    outline: none;
 }
 
 .accordion__item:focus .ui-accordion-header {
@@ -1253,6 +1265,10 @@ path {
 }
 
 @media (min-width: 300px) and (max-width: 543px) {
+    *:focus,
+    *:hover {
+        outline: none;
+    }
     .section__title {
         font-size: 24px;
         line-height: 29px;
