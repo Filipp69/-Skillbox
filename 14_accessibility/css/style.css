@@ -853,6 +853,15 @@ path {
     display: flex;
 }
 
+.social__link {
+    position: relative;
+}
+
+.visually-hiden {
+    position: absolute;
+    opacity: 0;
+}
+
 .social__link:not(:last-child) {
     margin-right: 25px;
 }
